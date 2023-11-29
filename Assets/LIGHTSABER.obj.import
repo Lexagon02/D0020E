@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cf4wc1xfi6h0b"
+path="res://.godot/imported/LIGHTSABER.obj-791bad7edeeb08f90b168ba1fb9cdb10.mesh"
+
+[deps]
+
+files=["res://.godot/imported/LIGHTSABER.obj-791bad7edeeb08f90b168ba1fb9cdb10.mesh"]
+
+source_file="res://Assets/LIGHTSABER.obj"
+dest_files=["res://.godot/imported/LIGHTSABER.obj-791bad7edeeb08f90b168ba1fb9cdb10.mesh", "res://.godot/imported/LIGHTSABER.obj-791bad7edeeb08f90b168ba1fb9cdb10.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

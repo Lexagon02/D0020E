@@ -1,0 +1,289 @@
+[gd_scene load_steps=10 format=3 uid="uid://b25q5s4dpfar1"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_7f4k7"]
+[ext_resource type="ArrayMesh" uid="uid://cf4wc1xfi6h0b" path="res://Assets/LIGHTSABER.obj" id="2_o5ryf"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_lq01o"]
+
+[sub_resource type="Animation" id="Animation_c8wnc"]
+resource_name = "idelLeft"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D/WeaponPivotLeft:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.01785, 9.08449e-08, 3.14159), Vector3(0.98352, 8.61068e-08, 3.14159)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.40282, -1.33339, -1.23811), Vector3(-1.40282, -1.44695, -1.23811)]
+}
+
+[sub_resource type="Animation" id="Animation_mc57e"]
+resource_name = "idleRight"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D/WeaponPivotRight:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.02308, 9.14783e-08, 3.14159), Vector3(0.967612, 8.39752e-08, 3.14159)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.27058, -1.26096, -1.10821), Vector3(1.27058, -1.37838, -1.10821)]
+}
+
+[sub_resource type="Animation" id="Animation_ee355"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D/WeaponPivotRight:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.02308, 9.14783e-08, 3.14159)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.27058, -1.26096, -1.10821)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Camera3D/WeaponPivotLeft:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.01785, 9.08449e-08, 3.14159)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.40282, -1.33339, -1.23811)]
+}
+
+[sub_resource type="Animation" id="Animation_lupsa"]
+resource_name = "attackRight"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D/WeaponPivotRight:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.4, 0.6),
+"transitions": PackedFloat32Array(-2, -2, -2),
+"update": 0,
+"values": [Vector3(0.689885, -1.14691, 2.37022), Vector3(-0.175388, 0.498269, 1.95464), Vector3(1.02308, 9.14783e-08, 3.14159)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D/WeaponPivotRight/SwordRight:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1, 0.4, 0.6),
+"transitions": PackedFloat32Array(-2, -2, -2),
+"update": 0,
+"values": [Vector3(0.871285, -0.890722, -1.44648), Vector3(0.332319, -1.41088, -1.59434), Vector3(1.27058, -1.26096, -1.10821)]
+}
+
+[sub_resource type="Animation" id="Animation_sdtyh"]
+resource_name = "attackLeft"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera3D/WeaponPivotLeft:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.1, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.4, 0.6),
+"transitions": PackedFloat32Array(-2, -2, -2),
+"update": 0,
+"values": [Vector3(0.22804, 1.00136, -1.71452), Vector3(0.22804, -0.691518, -1.71452), Vector3(1.07183, 0.292945, -0.237308)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D/WeaponPivotLeft/SwordLeft:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1, 0.4, 0.6),
+"transitions": PackedFloat32Array(-2, -2, -2),
+"update": 0,
+"values": [Vector3(-1.40282, -1.33339, -1.75494), Vector3(-0.605041, -1.02379, -1.75494), Vector3(-1.21151, -1.25784, -1.57476)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lby4a"]
+_data = {
+"RESET": SubResource("Animation_ee355"),
+"attackLeft": SubResource("Animation_sdtyh"),
+"attackRight": SubResource("Animation_lupsa"),
+"idelLeft": SubResource("Animation_c8wnc"),
+"idleRight": SubResource("Animation_mc57e")
+}
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_7f4k7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00025, 0)
+shape = SubResource("CapsuleShape3D_lq01o")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.65992, 0)
+
+[node name="WeaponPivotLeft" type="Node3D" parent="Camera3D"]
+
+[node name="SwordLeft" type="MeshInstance3D" parent="Camera3D/WeaponPivotLeft"]
+transform = Transform3D(-0.15, -3.42455e-08, 7.15671e-09, 1.18954e-08, -0.0787794, -0.127647, 3.29009e-08, -0.127647, 0.0787794, -1.40282, -1.33339, -1.23811)
+mesh = ExtResource("2_o5ryf")
+
+[node name="WeaponPivotRight" type="Node3D" parent="Camera3D"]
+
+[node name="SwordRight" type="MeshInstance3D" parent="Camera3D/WeaponPivotRight"]
+transform = Transform3D(-0.15, -3.43638e-08, 7.14547e-09, 1.17944e-08, -0.078111, -0.128057, 3.30578e-08, -0.128057, 0.078111, 1.27058, -1.26096, -1.10821)
+mesh = ExtResource("2_o5ryf")
+
+[node name="AnimationPlayerRight" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lby4a")
+}
+
+[node name="AnimationPlayerLeft" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lby4a")
+}
+
+[connection signal="animation_finished" from="AnimationPlayerRight" to="." method="_on_animation_player_animation_finished"]
+[connection signal="animation_finished" from="AnimationPlayerRight" to="." method="_on_animation_player_right_animation_finished"]
+[connection signal="animation_finished" from="AnimationPlayerLeft" to="." method="_on_animation_player_animation_finished"]
+[connection signal="animation_finished" from="AnimationPlayerLeft" to="." method="_on_animation_player_left_animation_finished"]
