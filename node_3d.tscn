@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://clvwisruihhi3"]
+[gd_scene load_steps=8 format=3 uid="uid://clvwisruihhi3"]
 
 [ext_resource type="PackedScene" uid="uid://b25q5s4dpfar1" path="res://player.tscn" id="1_rr2l7"]
+[ext_resource type="PackedScene" uid="uid://dght67rq61ibj" path="res://enemy_box.tscn" id="2_m654p"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f4ujf"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -42,3 +43,15 @@ mesh = SubResource("PlaneMesh_ths25")
 shape = SubResource("ConcavePolygonShape3D_ihdl7")
 
 [node name="Player" parent="." instance=ExtResource("1_rr2l7")]
+
+[node name="EnemyBox" parent="." instance=ExtResource("2_m654p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.09773, 1.53025, -15.8804)
+monitoring = false
+
+[node name="EnemyBox2" parent="." instance=ExtResource("2_m654p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.52474, 0.740889, -19.6908)
+monitoring = false
+
+[node name="EnemyBox3" parent="." instance=ExtResource("2_m654p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.538232, 1.53025, -15.8804)
+monitoring = false

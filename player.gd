@@ -10,6 +10,8 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 @onready var camera = $Camera3D
 @onready var anim_playerRight = $AnimationPlayerRight
 @onready var anim_playerLeft = $AnimationPlayerLeft
+@onready var hittbox_left = $Camera3D/WeaponPivotLeft/SwordLeft/HittboxLeft
+@onready var hittbox_right = $Camera3D/WeaponPivotRight/SwordRight/HittboxRight
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -26,9 +28,11 @@ func _process(delta):
 		
 	if Input.is_action_just_pressed("attackRight"):
 		anim_playerRight.play("attackRight")
+		hittbox_right.monitoring = true
 	
 	if Input.is_action_just_pressed("attackLeft"):
 		anim_playerLeft.play("attackLeft")
+		hittbox_left.monitoring = true
 	
 
 func _physics_process(delta):
@@ -57,6 +61,7 @@ func _physics_process(delta):
 func _on_animation_player_right_animation_finished(anim_name):
 	if anim_name == "attackRight":
 		anim_playerRight.play("idleRight")
+		hittbox_right.monitoring = false
 
 
 
@@ -64,3 +69,14 @@ func _on_animation_player_right_animation_finished(anim_name):
 func _on_animation_player_left_animation_finished(anim_name):
 	if anim_name == "attackLeft":
 		anim_playerLeft.play("idelLeft")
+		hittbox_left.monitoring = false
+
+
+func _on_hittbox_left_area_entered(area):
+	if area.is_in_group("enemy"):
+		print("enemy hit")
+
+
+func _on_hittbox_right_area_entered(area):
+	if area.is_in_group("enemy"):
+		print("enemy hit")
