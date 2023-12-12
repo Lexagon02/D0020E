@@ -1,5 +1,5 @@
-import cv2
-import numpy as np
+import cv2 #import cv2 in terminal with: pip install opencv-python
+import numpy as np # import numpy in terminal with: pip install numpy
 
 print(cv2.__version__)
 
