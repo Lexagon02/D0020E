@@ -26,8 +26,8 @@ while(1):
   
     # Set range for green color and  
     # define mask 
-    green_lower = np.array([85, 52, 72], np.uint8) 
-    green_upper = np.array([102, 255, 255], np.uint8) 
+    green_lower = np.array([85, 20, 25], np.uint8) 
+    green_upper = np.array([102, 100, 100], np.uint8) 
     green_mask = cv2.inRange(hsvFrame, green_lower, green_upper) 
   
     # Set range for blue color and 
@@ -69,7 +69,7 @@ while(1):
             imageFrame = cv2.rectangle(imageFrame, (x, y),  
                                        (x + w, y + h),  
                                        (0, 0, 255), 2) 
-              
+            #print(x,y)  
             cv2.putText(imageFrame, "Red Colour", (x, y), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1.0, 
                         (0, 0, 255))     
