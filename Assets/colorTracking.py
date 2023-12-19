@@ -1,13 +1,13 @@
 import numpy as np 
 import cv2 
-  
+from shared_memory_dict import SharedMemoryDict
   
 # Capturing video through webcam 
 webcam = cv2.VideoCapture(0) 
-  
+smd_config = SharedMemoryDict(name='config', size=1024)  
 # Start a while loop 
-while(1): 
-      
+def getCoord():
+    coordRed=0,0
     # Reading the video from the 
     # webcam in image frames 
     _, imageFrame = webcam.read() 
@@ -89,7 +89,8 @@ while(1):
               
             cv2.putText(imageFrame, "Green Colour", (x, y), 
                         cv2.FONT_HERSHEY_SIMPLEX,  
-                        1.0, (0, 255, 0)) 
+                        1.0, (0, 255, 0))
+            coordRed=x, y
   
     # Creating contour to track blue color 
     contours, hierarchy = cv2.findContours(blue_mask, 
@@ -112,4 +113,11 @@ while(1):
     if cv2.waitKey(10) & 0xFF == ord('q'): 
         cap.release() 
         cv2.destroyAllWindows() 
-        break
+        return
+    return coordRed
+
+red=0,0
+while(True):
+    red=getCoord()
+    print(red)
+    smd_config["status"] = red      #Store coordinates in shared memory
