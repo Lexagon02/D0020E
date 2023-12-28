@@ -23,23 +23,22 @@ public class swordObject : MonoBehaviour
     private void Update()
     {
         if (i > 100) { 
-/*             [MenuItem("Python Scripts/get")]
+            [MenuItem("Python Scripts/get")]
             static void get()
             {
                 PythonRunner.RunFile($"C:/Users/oscar/My project/Assets/get.py");
             }
-            get(); */
-            
+            get();
 
-            [MenuItem("Python Scripts/setCoord")]
+/*             [MenuItem("Python Scripts/setCoord")]
             static void setCoord()
                 {
                  PythonRunner.RunString(@"
                     import UnityEngine;
                     UnityEngine.left.redCoord=3
                 ");
-                }
-            setCoord();
+                } */
+            //setCoord();
             i = 0;
 
         }

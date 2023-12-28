@@ -118,48 +118,48 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.UnityAdditionalFile.txt",
-      "DisplayName": "Writing Unity.Scripting.Python.Samples.PySide.UnityAdditionalFile.txt",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.UnityAdditionalFile.txt",
+      "DisplayName": "Writing Unity.Scripting.Python.Editor.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122,
+      "PayloadOffset": 114,
       "PayloadLength": 25,
       "PayloadDebugContentSnippet": "C:\\Users\\oscar\\My project",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.UnityAdditionalFile.txt"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.UnityAdditionalFile.txt"
       ],
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp",
-      "DisplayName": "Writing Unity.Scripting.Python.Samples.PySide.rsp",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp",
+      "DisplayName": "Writing Unity.Scripting.Python.Editor.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 255,
-      "PayloadLength": 32259,
+      "PayloadOffset": 239,
+      "PayloadLength": 32784,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp"
       ],
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp2",
-      "DisplayName": "Writing Unity.Scripting.Python.Samples.PySide.rsp2",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp2",
+      "DisplayName": "Writing Unity.Scripting.Python.Editor.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 32623,
-      "PayloadLength": 0,
-      "PayloadDebugContentSnippet": "",
+      "PayloadOffset": 33124,
+      "PayloadLength": 38,
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\oscar\\My pr",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp2"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp2"
       ],
       "DebugActionIndex": 3
     },
     {
-      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll (+2 others)",
-      "DisplayName": "Csc Unity.Scripting.Python.Samples.PySide",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp2\"",
+      "Annotation": "Csc Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll (+2 others)",
+      "DisplayName": "Csc Unity.Scripting.Python.Editor",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp2\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll",
@@ -373,15 +373,21 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll",
-        "Assets/Samples/Python Scripting/6.0.1/PySide Camera Selector/PySideExample.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/Lib/x64/Python.Runtime.dll",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/PipPackages/LoadPipRequirements.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/PipPackages/PipPackages.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/PythonConsoleWindow.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/PythonRunner.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/PythonSettingsEditor.cs",
+        "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/TwoPaneSplitView.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.pdb",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.ref.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.pdb",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.ref.dll"
       ],
       "ToBuildDependencies": [
         1,
@@ -394,7 +400,7 @@
         3
       ],
       "FrontendResponseFiles": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.rsp"
       ],
       "AllowUnexpectedOutput": true,
       "Env": [
@@ -403,6 +409,7 @@
           "Value": "0"
         }
       ],
+      "CachingMode": "ByDirectInputs",
       "DebugActionIndex": 4
     },
     {
@@ -1813,22 +1820,22 @@
       "DebugActionIndex": 92
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm.rsp",
-      "DisplayName": "Writing Unity.Scripting.Python.Samples.PySide.dll.mvfrm.rsp",
+      "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm.rsp",
+      "DisplayName": "Writing Unity.Scripting.Python.Editor.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 32741,
+      "PayloadOffset": 33272,
       "PayloadLength": 7523,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm.rsp"
       ],
       "DebugActionIndex": 93
     },
     {
-      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm",
-      "DisplayName": "MovedFromExtractorCombine Unity.Scripting.Python.Samples.PySide.dll",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm.rsp\"",
+      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm",
+      "DisplayName": "MovedFromExtractorCombine Unity.Scripting.Python.Editor.dll",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEditor.Graphs.dll_F4EF3C0AF8876D21.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_29A10761F73D91EF.mvfrm",
@@ -1918,10 +1925,10 @@
         "Library/Bee/artifacts/mvdfrm/UnityEditor.WebGL.Extensions.dll_6B9EBB3B2FCB4131.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.WindowsStandalone.Extensions.dll_E32A2D92182EF5A1.mvfrm",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm.rsp"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm.rsp"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll.mvfrm"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll.mvfrm"
       ],
       "ToBuildDependencies": [
         5,
@@ -2021,7 +2028,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40370,
+      "PayloadOffset": 40901,
       "PayloadLength": 25,
       "PayloadDebugContentSnippet": "C:\\Users\\oscar\\My project",
       "Inputs": [],
@@ -2034,8 +2041,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40481,
-      "PayloadLength": 30865,
+      "PayloadOffset": 41012,
+      "PayloadLength": 30857,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -2047,7 +2054,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 71433,
+      "PayloadOffset": 71956,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -2266,7 +2273,7 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.ref.dll",
         "Assets/colorTracking.cs",
         "Assets/get.cs",
         "Assets/Scripts/Sword.cs",
@@ -2303,15 +2310,15 @@
       "DebugActionIndex": 98
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Samples.PySide.ref.dll_80B476238CDCF658.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.Scripting.Python.Samples.PySide.ref.dll_80B476238CDCF658",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Scripting.Python.Samples.PySide.ref.dll_80B476238CDCF658.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Scripting.Python.Samples.PySide.ref.dll\"",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Editor.ref.dll_D0D64D5582C275B0.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.Scripting.Python.Editor.ref.dll_D0D64D5582C275B0",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.Scripting.Python.Editor.ref.dll_D0D64D5582C275B0.mvfrm\" \"Library\\Bee\\artifacts\\1900b0aE.dag\\Unity.Scripting.Python.Editor.ref.dll\"",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.ref.dll",
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.ref.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Samples.PySide.ref.dll_80B476238CDCF658.mvfrm"
+        "Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Editor.ref.dll_D0D64D5582C275B0.mvfrm"
       ],
       "ToBuildDependencies": [
         4
@@ -2324,8 +2331,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 71529,
-      "PayloadLength": 7280,
+      "PayloadOffset": 72052,
+      "PayloadLength": 7272,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
@@ -2338,7 +2345,7 @@
       "DisplayName": "MovedFromExtractorCombine Assembly-CSharp.dll",
       "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.15f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm\" \"@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp\"",
       "Inputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Samples.PySide.ref.dll_80B476238CDCF658.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.Scripting.Python.Editor.ref.dll_D0D64D5582C275B0.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_29A10761F73D91EF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_EE9AFE58E5814802.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_7761A951B964A9D0.mvfrm",
@@ -2520,14 +2527,14 @@
       "DebugActionIndex": 101
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Scripting.Python.Samples.PySide.dll",
-      "DisplayName": "Copying Unity.Scripting.Python.Samples.PySide.dll",
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Scripting.Python.Editor.dll",
+      "DisplayName": "Copying Unity.Scripting.Python.Editor.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.dll"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.dll"
       ],
       "Outputs": [
-        "Library/ScriptAssemblies/Unity.Scripting.Python.Samples.PySide.dll"
+        "Library/ScriptAssemblies/Unity.Scripting.Python.Editor.dll"
       ],
       "ToBuildDependencies": [
         4
@@ -2535,14 +2542,14 @@
       "DebugActionIndex": 102
     },
     {
-      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Scripting.Python.Samples.PySide.pdb",
-      "DisplayName": "Copying Unity.Scripting.Python.Samples.PySide.pdb",
+      "Annotation": "CopyFiles Library/ScriptAssemblies/Unity.Scripting.Python.Editor.pdb",
+      "DisplayName": "Copying Unity.Scripting.Python.Editor.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Samples.PySide.pdb"
+        "Library/Bee/artifacts/1900b0aE.dag/Unity.Scripting.Python.Editor.pdb"
       ],
       "Outputs": [
-        "Library/ScriptAssemblies/Unity.Scripting.Python.Samples.PySide.pdb"
+        "Library/ScriptAssemblies/Unity.Scripting.Python.Editor.pdb"
       ],
       "ToBuildDependencies": [
         4
@@ -2726,10 +2733,10 @@
       "File": "Assets/mcs.rsp"
     },
     {
-      "File": "Assets/Samples/Python Scripting/6.0.1/PySide Camera Selector/csc.rsp"
+      "File": "Library/Bee/1900b0aE-inputdata.json"
     },
     {
-      "File": "Library/Bee/1900b0aE-inputdata.json"
+      "File": "Library/PackageCache/com.unity.scripting.python@6.0.1/Editor/csc.rsp"
     }
   ],
   "GlobSignatures": [

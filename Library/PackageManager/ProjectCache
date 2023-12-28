@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638393631467283073
-    m_Hash: 2405387192
+      ticks: 638393638331478625
+    m_Hash: 488442577
   m_LockFileStatus:
     m_FilePath: C:/Users/oscar/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638393631469321028
-    m_Hash: 517873031
+      ticks: 638393638331558631
+    m_Hash: 1737778647
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,79 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/oscar/My project/Packages
 m_EditorVersion: 2022.3.15f1 (b58023a2b463)
 m_ResolvedPackages:
+- packageId: com.unity.scripting.python@6.0.1
+  testable: 0
+  isDirectDependency: 1
+  version: 6.0.1
+  source: 1
+  resolvedPath: C:\Users\oscar\My project\Library\PackageCache\com.unity.scripting.python@6.0.1
+  assetPath: Packages/com.unity.scripting.python
+  name: com.unity.scripting.python
+  displayName: Python Scripting
+  author:
+    name: 
+    email: 
+    url: 
+  category: Editor
+  type: asset
+  description: Python Scripting is an integration of the open-source Python for .NET
+    project. This package provides the means to import the Python Runtime Environment
+    as a namespace and execute Python scripts from the Unity Editor.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-preview.6
+    - 2.0.1-preview.2
+    - 2.1.0-preview.1
+    - 2.1.1-preview.1
+    - 4.0.0-exp.5
+    - 4.0.0-pre.1
+    - 5.0.0-pre.5
+    - 6.0.0
+    - 6.0.1
+    - 7.0.0-pre.1
+    - 7.0.0
+    - 7.0.1
+    compatible:
+    - 6.0.0
+    - 6.0.1
+    - 7.0.0-pre.1
+    - 7.0.0
+    - 7.0.1
+    recommended: 6.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - python
+  - python.net
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638158687830000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.scripting.python@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.scripting.python.git
+    revision: 0f72a3b9bb5af41c1cab9e5a6983bc2399c5d0cb
+    path: 
+  unityLifecycle:
+    version: 6.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
