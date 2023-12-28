@@ -20,19 +20,19 @@ def getCoord():
   
     # Set range for red color and  
     # define mask 
-    red_lower = np.array([145, 100, 120], np.uint8) 
+    red_lower = np.array([145, 100, 240], np.uint8) 
     red_upper = np.array([180, 255, 255], np.uint8) 
     red_mask = cv2.inRange(hsvFrame, red_lower, red_upper) 
   
     # Set range for green color and  
     # define mask 
-    green_lower = np.array([85, 20, 25], np.uint8) 
+    green_lower = np.array([85, 20, 99], np.uint8) 
     green_upper = np.array([102, 100, 100], np.uint8) 
     green_mask = cv2.inRange(hsvFrame, green_lower, green_upper) 
   
     # Set range for blue color and 
     # define mask 
-    blue_lower = np.array([100, 95, 20], np.uint8) 
+    blue_lower = np.array([100, 95, 254], np.uint8) 
     blue_upper = np.array([120, 255, 255], np.uint8) 
     blue_mask = cv2.inRange(hsvFrame, blue_lower, blue_upper) 
       
@@ -65,7 +65,8 @@ def getCoord():
     for pic, contour in enumerate(contours): 
         area = cv2.contourArea(contour) 
         if(area > 300): 
-            x, y, w, h = cv2.boundingRect(contour) 
+            x, y, w, h = cv2.boundingRect(contour)
+            coordRed=x, y
             imageFrame = cv2.rectangle(imageFrame, (x, y),  
                                        (x + w, y + h),  
                                        (0, 0, 255), 2) 
@@ -73,7 +74,7 @@ def getCoord():
             cv2.putText(imageFrame, "Red Colour", (x, y), 
                         cv2.FONT_HERSHEY_SIMPLEX, 1.0, 
                         (0, 0, 255))     
-  
+    
     # Creating contour to track green color 
     contours, hierarchy = cv2.findContours(green_mask, 
                                            cv2.RETR_TREE, 
@@ -90,7 +91,7 @@ def getCoord():
             cv2.putText(imageFrame, "Green Colour", (x, y), 
                         cv2.FONT_HERSHEY_SIMPLEX,  
                         1.0, (0, 255, 0))
-            coordRed=x, y
+            
   
     # Creating contour to track blue color 
     contours, hierarchy = cv2.findContours(blue_mask, 

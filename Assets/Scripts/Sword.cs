@@ -8,28 +8,26 @@ using UnityEditor;
 using static System.Net.Mime.MediaTypeNames;
 
 
+	
+
 
 public class swordObject : MonoBehaviour
 {
-    public int redCoord=0;
-    int i=0;
-    public GameObject[] left;
+    public int redCoord;
     //redCoord = PythonSettings.createInstance(int);
     private void Start()
     {
-        left = new GameObject[1];
     }
-
     private void Update()
     {
-        if (i > 100) { 
-            [MenuItem("Python Scripts/get")]
+         [MenuItem("Python Scripts/get")]
             static void get()
             {
-                PythonRunner.RunFile($"C:/Users/oscar/My project/Assets/get.py");
+                string path= UnityEngine.Application.dataPath;
+                PythonRunner.RunFile(path + "/get.py");
             }
+            
             get();
-
 /*             [MenuItem("Python Scripts/setCoord")]
             static void setCoord()
                 {
@@ -39,10 +37,6 @@ public class swordObject : MonoBehaviour
                 ");
                 } */
             //setCoord();
-            i = 0;
-
-        }
-        i = i + 1;
 
     }
 }
