@@ -7,7 +7,7 @@ webcam = cv2.VideoCapture(0)
 smd_config = SharedMemoryDict(name='config', size=1024)  
 # Start a while loop 
 def getCoord():
-    coordRed=0,0
+    coordRed=0,0,0,0,0
     # Reading the video from the 
     # webcam in image frames 
     _, imageFrame = webcam.read() 
@@ -20,7 +20,7 @@ def getCoord():
   
     # Set range for red color and  
     # define mask 
-    red_lower = np.array([145, 100, 240], np.uint8) 
+    red_lower = np.array([120, 100, 180], np.uint8) 
     red_upper = np.array([180, 255, 255], np.uint8) 
     red_mask = cv2.inRange(hsvFrame, red_lower, red_upper) 
   
@@ -64,16 +64,28 @@ def getCoord():
       
     for pic, contour in enumerate(contours): 
         area = cv2.contourArea(contour) 
-        if(area > 300): 
-            x, y, w, h = cv2.boundingRect(contour)
-            coordRed=x, y
-            imageFrame = cv2.rectangle(imageFrame, (x, y),  
-                                       (x + w, y + h),  
-                                       (0, 0, 255), 2) 
+        if(area > 1000): 
+            rect = cv2.minAreaRect(contour)
+            ((x,y),(w,h),angle)=rect
+            x=int(x)
+            y=int(y)
+            w=int(w)
+            h=int(h)
+            angle=int(angle)
+
+            box=cv2.boxPoints(rect)
+            box = np.int0(box)
+            imageFrame = cv2.drawContours(imageFrame,[box],0,(0,0,255),2)
+            if(w<h):
+                angle=angle+180
+            else:
+                angle=angle+90
+            coordRed=x,y,w,h,angle
+            print(coordRed)
             #print(x,y)  
-            cv2.putText(imageFrame, "Red Colour", (x, y), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1.0, 
-                        (0, 0, 255))     
+           # cv2.putText(imageFrame, "Red Colour", (x, y), 
+                 #       cv2.FONT_HERSHEY_SIMPLEX, 1.0, 
+                  #      (0, 0, 255))     
     
     # Creating contour to track green color 
     contours, hierarchy = cv2.findContours(green_mask, 
@@ -82,7 +94,7 @@ def getCoord():
       
     for pic, contour in enumerate(contours): 
         area = cv2.contourArea(contour) 
-        if(area > 300): 
+        if(area > 1000): 
             x, y, w, h = cv2.boundingRect(contour) 
             imageFrame = cv2.rectangle(imageFrame, (x, y),  
                                        (x + w, y + h), 
@@ -99,7 +111,7 @@ def getCoord():
                                            cv2.CHAIN_APPROX_SIMPLE) 
     for pic, contour in enumerate(contours): 
         area = cv2.contourArea(contour) 
-        if(area > 300): 
+        if(area > 1000): 
             x, y, w, h = cv2.boundingRect(contour) 
             imageFrame = cv2.rectangle(imageFrame, (x, y), 
                                        (x + w, y + h), 
@@ -117,8 +129,8 @@ def getCoord():
         return
     return coordRed
 
-red=0,0
+red=0,0,0,0,0
 while(True):
     red=getCoord()
-    print(red)
+    #print(red)
     smd_config["status"] = red      #Store coordinates in shared memory
