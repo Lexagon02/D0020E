@@ -13,10 +13,12 @@ using static System.Net.Mime.MediaTypeNames;
 
 public class swordObject : MonoBehaviour
 {
-    public int redCoord;
+    public Rigidbody m_sword;
+    int redCoord;
     //redCoord = PythonSettings.createInstance(int);
     private void Start()
     {
+        m_sword = GetComponent<Rigidbody>();
     }
     private void Update()
     {
@@ -28,15 +30,7 @@ public class swordObject : MonoBehaviour
             }
             
             get();
-/*             [MenuItem("Python Scripts/setCoord")]
-            static void setCoord()
-                {
-                 PythonRunner.RunString(@"
-                    import UnityEngine;
-                    UnityEngine.left.redCoord=3
-                ");
-                } */
-            //setCoord();
+            
 
     }
 }
