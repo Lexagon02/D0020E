@@ -6,19 +6,21 @@ using UnityEngine;
 using UnityEditor.Scripting.Python;
 using UnityEditor;
 using static System.Net.Mime.MediaTypeNames;
+using System.Collections.Specialized;
 
 
-	
+
 
 
 public class swordObject : MonoBehaviour
 {
     public Rigidbody m_sword;
-    int redCoord;
-    //redCoord = PythonSettings.createInstance(int);
+    public Vector3 trailOffset;
+
     private void Start()
     {
         m_sword = GetComponent<Rigidbody>();
+        trailOffset = new Vector3(0, 0, 3);
     }
     private void Update()
     {
@@ -30,7 +32,8 @@ public class swordObject : MonoBehaviour
             }
             
             get();
-            
+
+
 
     }
 }
