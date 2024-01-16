@@ -1,33 +1,96 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Oscar/Downloads/BeatSaber/Packages/manifest.json
+    m_FilePath: C:/Users/josef/OneDrive/Dokument/GitHub/D0020E/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638409136298119366
-    m_Hash: 973970426
+      ticks: 638410126985026965
+    m_Hash: 2185748923
   m_LockFileStatus:
-    m_FilePath: C:/Users/Oscar/Downloads/BeatSaber/Packages/packages-lock.json
+    m_FilePath: C:/Users/josef/OneDrive/Dokument/GitHub/D0020E/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638409136298189365
-    m_Hash: 1341590674
+      ticks: 638410126985066980
+    m_Hash: 327425672
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Oscar/Downloads/BeatSaber/Packages
+m_ProjectPath: C:/Users/josef/OneDrive/Dokument/GitHub/D0020E/Packages
 m_EditorVersion: 2022.3.15f1 (b58023a2b463)
 m_ResolvedPackages:
+- packageId: com.spoiledcat.git@1.0.18
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.18
+  source: 1
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.spoiledcat.git@1.0.18
+  assetPath: Packages/com.spoiledcat.git
+  name: com.spoiledcat.git
+  displayName: Git for Unity
+  author:
+    name: 
+    email: shana@spoiledcat.net
+    url: 
+  category: 
+  type: 
+  description: Git for Unity brings [Git](https://git-scm.com/) into [Unity](https://unity3d.com/),
+    integrating source control into your work with friendly and accessible tools
+    and workflows.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.18
+    compatible:
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.18
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: scoped:project:spoiledcat
+    name: spoiledcat
+    url: https://registry.spoiledcat.com
+    scopes:
+    - com.spoiledcat
+    isDefault: 0
+    capabilities: 0
+    configSource: 4
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638271278247570000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+ssh://git@github.com/spoiledcat/git-for-unity.git
+    revision: 07a3c3384a59a979eb052b76ff9498675875cf40
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.postprocessing@3.2.2
   testable: 0
   isDirectDependency: 1
   version: 3.2.2
   source: 1
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.postprocessing@3.2.2
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.postprocessing@3.2.2
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -126,7 +189,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 14.0.9
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.render-pipelines.universal@14.0.9
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.render-pipelines.universal@14.0.9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -268,7 +331,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 6.0.1
   source: 1
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.scripting.python@6.0.1
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.scripting.python@6.0.1
   assetPath: Packages/com.unity.scripting.python
   name: com.unity.scripting.python
   displayName: Python Scripting
@@ -341,7 +404,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -396,7 +459,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -450,7 +513,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -505,7 +568,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -560,7 +623,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -615,7 +678,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -674,7 +737,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -737,7 +800,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -793,7 +856,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -848,7 +911,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -903,7 +966,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -958,7 +1021,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1013,7 +1076,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1068,7 +1131,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1127,7 +1190,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1182,7 +1245,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1245,7 +1308,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1303,7 +1366,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1358,7 +1421,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1425,7 +1488,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1480,7 +1543,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1543,7 +1606,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1598,7 +1661,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1661,7 +1724,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1724,7 +1787,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -1787,7 +1850,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -1866,7 +1929,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -1925,7 +1988,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -1992,7 +2055,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2061,7 +2124,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2116,7 +2179,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2183,7 +2246,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2242,7 +2305,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -2276,9 +2339,11 @@ m_ResolvedPackages:
     - 1.2.5
     - 1.2.6
     - 1.3.1
+    - 1.3.2
     compatible:
     - 1.2.6
     - 1.3.1
+    - 1.3.2
     recommended: 1.2.6
     deprecated: []
   dependencies: []
@@ -2316,7 +2381,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.11
   source: 1
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.burst@1.8.11
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.burst@1.8.11
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -2502,7 +2567,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 14.0.9
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.render-pipelines.core@14.0.9
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.render-pipelines.core@14.0.9
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -2680,7 +2745,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 14.0.9
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.shadergraph@14.0.9
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.shadergraph@14.0.9
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -2855,7 +2920,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 14.0.9
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.render-pipelines.universal-config@14.0.9
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.render-pipelines.universal-config@14.0.9
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -2925,7 +2990,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.2
   source: 1
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.searcher@4.9.2
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -2934,13 +2999,28 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -2961,7 +3041,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2982,7 +3062,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Oscar\Downloads\BeatSaber\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\josef\OneDrive\Dokument\GitHub\D0020E\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
