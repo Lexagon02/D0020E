@@ -10,7 +10,7 @@ public class Spawner : MonoBehaviour
     public float beat = (60/130)*2; // beat of the song
     private float timer;
 
-
+    //private arr[] arr = [[1,1,4,0], []]; possible array to spawn boxes
     // Start is called before the first frame update
     void Start()
     {
